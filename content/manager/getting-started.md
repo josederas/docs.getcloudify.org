@@ -40,6 +40,7 @@ Your Hypervisor must support nested virtualization in order to run Virtualbox in
 * Do not run the command prompt as Administrator (privilege escalation).
 * Hyper-V & Virtualbox [do not play nice together](https://docs.vagrantup.com/v2/hyperv/index.html). Disabling Hyper-V is
 possible by running the `bcdedit /set hypervisorlaunchtype off` command (reboot is needed).
+* Must have Cygwin installed for access to SSH
 {{% /gsNote %}}
 
 # Step by Step Walkthrough
